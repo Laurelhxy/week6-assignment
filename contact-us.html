@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&family=Source+Code+Pro:ital@1&family=Work+Sans:wght@700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav">
+    <div class="logo">
+      <a href="index.html"><img src="image/logo1.png" alt="logo">
+          </a> 
+    </div>
+
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <img class="btn-select" src="image/icon.png" alt="">
+        </label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Beverages</a>
+            <ul>
+              <li><a href="coffeeDrinks.html">Coffee Drinks</a></li>
+              <li><a href="Tea.html">Iced or Hot Tea</a></li>
+              <li><a href="freshJuice.html">Fresh Juice</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Food</a>
+            <ul>
+              <li><a href="sandwiches.html">Sandwiches</a></li>
+              <li><a href="salad.html">Salad</a></li>
+              <li><a href="pastries.html">Pastries</a></li>
+            </ul>
+          </li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a class="activex" href="contact-us.html">Contact Us</a></li>
+
+        </ul>
+      </nav>
+    </div>
+
+    <div class='contact'>
+      <form id="contact" action="" method="post">
+        <h1>QUICK CONTACT</h1>
+        <h2>Contact us today, and get reply within 24 hours!</h2>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+      </form>
+
+
+    </div>
+    <footer>
+      <p>Copyright 2022 Happyhours. All Rights Reserved.</p>
+      <p>Designed By X Enterprises</p>
+    </footer>
+
+  </div>
+</body>
+
+</html>
